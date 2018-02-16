@@ -1,0 +1,28 @@
+type: m
+
+manager:
+  address: 127.0.0.1:4001
+  password: '123456'
+plugins:
+  flowSaver:
+    use: true
+  user:
+    use: true
+  account:
+    use: true
+  macAccount:
+    use: true
+  email:
+    use: true
+    type: 'mailgun'
+    baseUrl: 'https://api.mailgun.net/v3/sandboxcc751b74fa514600aa8647a40604c3dc.mailgun.org'
+    apiKey: 'key-fb660d957e8b190edcb42899e49809f4'
+  webgui:
+    use: true
+    host: '0.0.0.0'
+    port: '80'
+    site: 'http://yourwebsite.com'
+    gcmSenderId: '456102641793'
+    gcmAPIKey: 'AAAAGzzdqrE:XXXXXXXXXXXXXX'
+
+db: 'webgui.sqlite'
