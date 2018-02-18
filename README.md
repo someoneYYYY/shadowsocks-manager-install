@@ -10,4 +10,4 @@ Open the url `http://your ip address:7000`
 
 In the web page of shadowsock manager  ,the shadowsock port only can be set to  `38000 - 385000`
 
-if your want to enable [Google BBR](https://zoco.me/post/centos-7-google-bbr)
+Enable [Google BBR](https://zoco.me/post/centos-7-google-bbr)
